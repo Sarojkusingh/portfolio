@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saroj Kumar Singh - B.Tech Student & Software Developer Portfolio. Deep interest in Programming, Mathematics, Physics, and Ethical Hacking.">
+    <title>Saroj Kumar Singh | B.Tech Developer & Security Analyst</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Gravity particle background -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Glowing accent overlays for futuristic depth -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i data-lucide="cpu"></i></span>
+                <span class="logo-text">SAROJ.SINGH</span>
+            </a>
+            <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+                <i data-lucide="menu"></i>
+            </button>
+            <nav class="nav-links">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#portfolio" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link btn-contact-nav">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <div class="badge-container">
+                        <span class="hero-badge"><i data-lucide="terminal"></i> B.Tech Student &amp; Programmer</span>
+                    </div>
+                    <h1 class="hero-title">Saroj Kumar<br><span class="gradient-text">Singh</span></h1>
+                    <p class="hero-subtitle">Exploring the core paradigms of software development, C programming, mathematics, physics, and ethical hacking. Designing robust solutions and mapping technological frontiers.</p>
+                    <div class="hero-actions">
+                        <a href="#portfolio" class="btn btn-primary">View Projects <i data-lucide="arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Establish Comm-Link</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-frame glass-panel">
+                        <img src="profile.png" alt="Saroj Kumar Singh" class="hero-profile-img">
+                        <div class="hud-corners"></div>
+                        <div class="hud-scanning-line"></div>
+                        <div class="hud-badge"><i data-lucide="shield-check"></i> SECURE_HOST</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <span>SCROLL TO ORBIT</span>
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">BIOGRAPHY</span>
+                    <h2 class="section-title">Aetheric Core</h2>
+                    <p class="section-desc">Get to know the developer, scientist, and ethical explorer behind the terminal.</p>
+                </div>
+
+                <div class="about-bio-panel glass-panel">
+                    <p>I am a B.Tech student with a strong interest in programming, problem-solving, and technology. I enjoy learning new skills in software development, C programming, mathematics, physics, and ethical hacking. My goal is to build innovative solutions, continuously improve my technical expertise, and contribute to meaningful projects.</p>
+                    <p>I am passionate about exploring emerging technologies, developing practical applications, and expanding my knowledge through hands-on learning and real-world challenges. Welcome to my portfolio, where you can explore my projects, skills, and achievements.</p>
+                </div>
+
+                <!-- Timeline / Journey -->
+                <div class="timeline-container">
+                    <h3 class="timeline-header">My Technical Evolution</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2023</div>
+                            <div class="timeline-content glass-panel">
+                                <h4>Foundations of Physics &amp; Mathematics</h4>
+                                <p>Explored vector calculus, classical mechanics, and logical proofs. Discovered a deep interest in computing paradigms and how mathematical models map to systems hardware.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2024</div>
+                            <div class="timeline-content glass-panel">
+                                <h4>Entry to B.Tech &amp; Systems Logic</h4>
+                                <p>Began formal B.Tech curriculum. Immersed in C programming, low-level binary math, computer architecture, and basic networking configurations. Built initial terminal-based utilities.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2025</div>
+                            <div class="timeline-content glass-panel">
+                                <h4>Application Design &amp; Cybersecurity</h4>
+                                <p>Expanded into web technologies (HTML, CSS, modern JS) and Linux systems administration. Started analyzing network security models, protocol payloads, and penetration testing concepts.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2026</div>
+                            <div class="timeline-content glass-panel">
+                                <h4>Full Stack &amp; Ethical Auditing</h4>
+                                <p>Developing full portfolio applications and scanning scripts. Creating interactive data visualizers using physics frameworks while learning vulnerability research techniques.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-padding bg-darker">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">CAPABILITIES</span>
+                    <h2 class="section-title">Technical Matrix</h2>
+                    <p class="section-desc">My primary skillsets across computer systems, logic architecture, development, and cyber security.</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card glass-panel hover-glow">
+                        <div class="service-icon"><i data-lucide="code"></i></div>
+                        <h3>Development &amp; Languages</h3>
+                        <p>Designing modern, responsive interfaces and writing clean scripts in Python and JavaScript.</p>
+                        <ul class="service-list">
+                            <li><i data-lucide="chevron-right"></i> Python Scripting &amp; ES6+ JS</li>
+                            <li><i data-lucide="chevron-right"></i> Responsive Web (HTML5, CSS3)</li>
+                            <li><i data-lucide="chevron-right"></i> Modern UI/UX Layouts</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass-panel hover-glow">
+                        <div class="service-icon"><i data-lucide="brain"></i></div>
+                        <h3>Machine Learning</h3>
+                        <p>Conducting data preprocessing, training models, and performing robust evaluations with advanced libraries.</p>
+                        <ul class="service-list">
+                            <li><i data-lucide="chevron-right"></i> NumPy, Pandas &amp; Matplotlib</li>
+                            <li><i data-lucide="chevron-right"></i> Scikit-learn Model Pipelines</li>
+                            <li><i data-lucide="chevron-right"></i> TensorFlow &amp; Keras Foundations</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass-panel hover-glow">
+                        <div class="service-icon"><i data-lucide="sparkles"></i></div>
+                        <h3>AI &amp; LLM Systems</h3>
+                        <p>Integrating Large Language Models (LLMs), engineering prompts, and scripting custom AI interfaces.</p>
+                        <ul class="service-list">
+                            <li><i data-lucide="chevron-right"></i> LLM API Integration</li>
+                            <li><i data-lucide="chevron-right"></i> Prompt Engineering Frameworks</li>
+                            <li><i data-lucide="chevron-right"></i> Automated AI Workflows</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass-panel hover-glow">
+                        <div class="service-icon"><i data-lucide="wrench"></i></div>
+                        <h3>Tools &amp; Databases</h3>
+                        <p>Handling SQL databases, using version control, and solving logical problems using algorithms.</p>
+                        <ul class="service-list">
+                            <li><i data-lucide="chevron-right"></i> MySQL Queries &amp; Schemas</li>
+                            <li><i data-lucide="chevron-right"></i> Git, GitHub &amp; VS Code</li>
+                            <li><i data-lucide="chevron-right"></i> Data Structures &amp; DSA Debugging</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Scrolling/Static Highlights Banner -->
+                <div class="skills-highlight-banner glass-panel">
+                    <div class="skills-highlight-content">
+                        <span>Python</span> &bull; 
+                        <span>HTML</span> &bull; 
+                        <span>CSS</span> &bull; 
+                        <span>JavaScript</span> &bull; 
+                        <span>Machine Learning</span> &bull; 
+                        <span>NumPy</span> &bull; 
+                        <span>Pandas</span> &bull; 
+                        <span>Matplotlib</span> &bull; 
+                        <span>Scikit-learn</span> &bull; 
+                        <span>TensorFlow</span> &bull; 
+                        <span>Git</span> &bull; 
+                        <span>GitHub</span> &bull; 
+                        <span>MySQL</span> &bull; 
+                        <span>LLM Integration</span> &bull; 
+                        <span>Problem Solving</span> 🚀
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Portfolio Section -->
+        <section id="portfolio" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">PROJECT ARCHIVES</span>
+                    <h2 class="section-title">Selected Lab Works</h2>
+                    <p class="section-desc">Explore practical applications, security scripts, and visual modeling codebases built during my B.Tech path.</p>
+                </div>
+
+                <!-- Filter Controls -->
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all">All Labs</button>
+                    <button class="filter-btn" data-filter="security">Security</button>
+                    <button class="filter-btn" data-filter="software">Software Dev</button>
+                    <button class="filter-btn" data-filter="physics">Physics &amp; Math</button>
+                    <button class="filter-btn" data-filter="webapp">Web Apps</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-panel" data-category="security" data-id="1">
+                        <div class="project-image-container">
+                            <div class="project-placeholder-img p-img-1"></div>
+                            <div class="project-tags">
+                                <span class="project-tag-badge">Ethical Hacking</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>AetherSecure Scan</h3>
+                            <p>Python script mapping active subnet ports, reporting services, and analyzing potential misconfiguration gaps.</p>
+                            <span class="read-more">Read Log <i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-panel" data-category="physics" data-id="2">
+                        <div class="project-image-container">
+                            <div class="project-placeholder-img p-img-2"></div>
+                            <div class="project-tags">
+                                <span class="project-tag-badge">Physics &amp; Math</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>WaveSim Engine</h3>
+                            <p>Interactive vector modeling application simulating elastic wave collisions and gravitational vector fields in Canvas.</p>
+                            <span class="read-more">Read Log <i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-panel" data-category="software" data-id="3">
+                        <div class="project-image-container">
+                            <div class="project-placeholder-img p-img-3"></div>
+                            <div class="project-tags">
+                                <span class="project-tag-badge">C Programming</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>AlgoVault Library</h3>
+                            <p>Optimized package of data structures (red-black trees, graphs, custom heaps) coded in pure C for extreme efficiency.</p>
+                            <span class="read-more">Read Log <i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card glass-panel" data-category="webapp" data-id="4">
+                        <div class="project-image-container">
+                            <div class="project-placeholder-img p-img-4"></div>
+                            <div class="project-tags">
+                                <span class="project-tag-badge">AI &amp; Web</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>AI-Powered HMS</h3>
+                            <p>Developed an AI-driven Hospital Management System with LLM integration, enabling smart patient management, automated workflows, and intelligent healthcare assistance.</p>
+                            <span class="read-more">Read Log <i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card glass-panel" data-category="security" data-id="5">
+                        <div class="project-image-container">
+                            <div class="project-placeholder-img p-img-5"></div>
+                            <div class="project-tags">
+                                <span class="project-tag-badge">Network Security</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>AeroShield Firewall</h3>
+                            <p>A C-based packet analyzer parsing raw socket dumps and filtering network traffic based on custom rulesets.</p>
+                            <span class="read-more">Read Log <i data-lucide="arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section-padding bg-darker">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">ACADEMICS</span>
+                    <h2 class="section-title">Academic Architecture</h2>
+                    <p class="section-desc">My formal education roadmap, academic concentrations, and key coursework.</p>
+                </div>
+
+                <div class="education-layout">
+                    <!-- Degree Card -->
+                    <div class="degree-card glass-panel">
+                        <div class="degree-icon"><i data-lucide="graduation-cap"></i></div>
+                        <div class="degree-info">
+                            <span class="degree-duration">2024 - Present</span>
+                            <h3>Bachelor of Technology (B.Tech)</h3>
+                            <span class="degree-major">Computer Science &amp; Engineering Focus</span>
+                            <p>Engaged in a rigorous technical curriculum exploring hardware-level structures, network systems, mathematical principles, and scalable software design models.</p>
+                        </div>
+                    </div>
+
+                    <h3 class="coursework-header">Core Fields of Study</h3>
+                    <div class="tech-grid">
+                        <div class="tech-card glass-panel">
+                            <div class="tech-icon"><i data-lucide="cpu"></i></div>
+                            <h4>Systems &amp; Architecture</h4>
+                            <p>Computer Organization, Operating Systems (Linux Kernel, processes), and C Systems Programming.</p>
+                        </div>
+                        <div class="tech-card glass-panel">
+                            <div class="tech-icon"><i data-lucide="square-asterisk"></i></div>
+                            <h4>Discrete Mathematics</h4>
+                            <p>Graph theory, logic arrays, combinatorial calculations, and modular arithmetic used for cryptosystems.</p>
+                        </div>
+                        <div class="tech-card glass-panel">
+                            <div class="tech-icon"><i data-lucide="atom"></i></div>
+                            <h4>Engineering Physics</h4>
+                            <p>Wave mechanics, quantum mechanics foundations, thermodynamics, and physical modeling equations.</p>
+                        </div>
+                        <div class="tech-card glass-panel">
+                            <div class="tech-icon"><i data-lucide="git-merge"></i></div>
+                            <h4>Data Structures &amp; DSA</h4>
+                            <p>Sorting optimizations, pointer structures, algorithmic complexity (Big O), and pathfinding logic.</p>
+                        </div>
+                        <div class="tech-card glass-panel">
+                            <div class="tech-icon"><i data-lucide="lock"></i></div>
+                            <h4>Network Security</h4>
+                            <p>TCP/IP handshake processes, network protocol suites, cryptographic algorithms, and security policies.</p>
+                        </div>
+                        <div class="tech-card glass-panel">
+                            <div class="tech-icon"><i data-lucide="terminal"></i></div>
+                            <h4>Software Engineering</h4>
+                            <p>Modern software development life cycles, agile methodologies, object-oriented concepts, and API integration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon cyan-text"><i data-lucide="file-code-2"></i></div>
+                        <div class="stat-number" data-target="25000">0</div>
+                        <div class="stat-label">Lines of Code</div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon purple-text"><i data-lucide="terminal"></i></div>
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Security Labs Solved</div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon blue-text"><i data-lucide="git-branch"></i></div>
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Completed Projects</div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon cyan-text"><i data-lucide="clock"></i></div>
+                        <div class="stat-number" data-target="450">0</div>
+                        <div class="stat-label">Lab Coding Hours</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials / Peer Telemetry Slider -->
+        <section class="section-padding bg-darker">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">ENDORSEMENTS</span>
+                    <h2 class="section-title">Peer &amp; Mentor Reports</h2>
+                    <p class="section-desc">Feedback and reviews from college coding lab partners and project mentors.</p>
+                </div>
+
+                <div class="testimonials-slider">
+                    <div class="testimonial-card glass-panel">
+                        <div class="testimonial-rating">
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                        </div>
+                        <p class="testimonial-text">"Saroj's understanding of systems programming in C is excellent. He helped optimize our group project memory structure, decreasing execution lag by a major margin."</p>
+                        <div class="testimonial-user">
+                            <div class="user-avatar"><i data-lucide="user"></i></div>
+                            <div class="user-info">
+                                <strong>Aarav Sharma</strong>
+                                <span>B.Tech Project Partner, CSE</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card glass-panel">
+                        <div class="testimonial-rating">
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                        </div>
+                        <p class="testimonial-text">"An extremely dedicated learner. His curiosity in the mechanics of ethical hacking, specifically network scanning and script auditing, makes him stand out."</p>
+                        <div class="testimonial-user">
+                            <div class="user-avatar"><i data-lucide="user"></i></div>
+                            <div class="user-info">
+                                <strong>Dr. R. K. Verma</strong>
+                                <span>Faculty Mentor &amp; Advisor</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card glass-panel">
+                        <div class="testimonial-rating">
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                        </div>
+                        <p class="testimonial-text">"Saroj integrates mathematical equations into visual simulations beautifully. His WaveSim project demonstrates strong logical integration and clean JavaScript design."</p>
+                        <div class="testimonial-user">
+                            <div class="user-avatar"><i data-lucide="user"></i></div>
+                            <div class="user-info">
+                                <strong>Meera Kapoor</strong>
+                                <span>Lab Coordinator, Physics &amp; Computation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learning Log Section -->
+        <section id="blog" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">LOGBOOK</span>
+                    <h2 class="section-title">Aetheric Insights</h2>
+                    <p class="section-desc">Articles and documentation tracking my technical learning journey and security research.</p>
+                </div>
+
+                <div class="blog-grid">
+                    <article class="blog-card glass-panel">
+                        <div class="blog-img-container">
+                            <div class="blog-placeholder-img b-img-1"></div>
+                            <span class="blog-date">June 20, 2026</span>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Understanding Buffer Overflows in C</h3>
+                            <p>An architectural breakdown of stack allocations, registers, and memory manipulation vulnerabilities inside standard C codebases.</p>
+                            <a href="#" class="blog-link">Read Log Entry <i data-lucide="arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card glass-panel">
+                        <div class="blog-img-container">
+                            <div class="blog-placeholder-img b-img-2"></div>
+                            <span class="blog-date">May 15, 2026</span>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Vector Mechanics in Javascript Canvas</h3>
+                            <p>How to construct custom vector objects, calculate velocity, and implement accurate acceleration parameters for circular bounds.</p>
+                            <a href="#" class="blog-link">Read Log Entry <i data-lucide="arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card glass-panel">
+                        <div class="blog-img-container">
+                            <div class="blog-placeholder-img b-img-3"></div>
+                            <span class="blog-date">April 05, 2026</span>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Linux Networking: Auditing Ports Manually</h3>
+                            <p>Using netstat, ss, and custom raw socket scripts to trace active connections and filter port listening channels locally.</p>
+                            <a href="#" class="blog-link">Read Log Entry <i data-lucide="arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding bg-darker">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">SECURE LINK</span>
+                    <h2 class="section-title">Establish Comm-Link</h2>
+                    <p class="section-desc">Transmit your queries or project opportunities. My personal console alerts on all incoming transmissions.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-form-container glass-panel">
+                        <form id="comm-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Operator Name</label>
+                                    <input type="text" id="name" required placeholder="e.g. John Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Comm-Link Address</label>
+                                    <input type="email" id="email" required placeholder="e.g. operator@domain.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Vector Classification</label>
+                                <select id="subject" required>
+                                    <option value="" disabled selected>Select priority...</option>
+                                    <option value="software">Software Dev Project</option>
+                                    <option value="security">Security Audit / Inquiry</option>
+                                    <option value="academic">Academic Partnership</option>
+                                    <option value="other">General Comm-Link</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Transmission Payload</label>
+                                <textarea id="message" rows="5" required placeholder="Describe your specifications..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span>Transmit Payload</span>
+                                <i data-lucide="send"></i>
+                            </button>
+                            <div id="form-feedback" class="form-feedback"></div>
+                        </form>
+                    </div>
+
+                    <div class="contact-info-container">
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                            <div class="info-text">
+                                <h4>Geographic Station</h4>
+                                <p>New Delhi NCR Region,<br>India</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-panel">
+                            <div class="info-icon"><i data-lucide="mail"></i></div>
+                            <div class="info-text">
+                                <h4>Comm-Link Channels</h4>
+                                <p>saroj.singh@portfolio.dev<br>comm-link@saroj.singh</p>
+                            </div>
+                        </div>
+
+                        <!-- Google Maps Mock / Interactive Grid pointing to India coordinates -->
+                        <div class="map-placeholder glass-panel">
+                            <div class="map-grid-overlay"></div>
+                            <div class="map-marker-ping"></div>
+                            <div class="map-label">
+                                <i data-lucide="crosshair"></i> Coord: 28.6139° N, 77.2090° E
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="#" class="social-btn" aria-label="X"><i data-lucide="twitter"></i></a>
+                            <a href="https://github.com" class="social-btn" aria-label="GitHub"><i data-lucide="github"></i></a>
+                            <a href="https://linkedin.com" class="social-btn" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                            <a href="#" class="social-btn" aria-label="Terminal"><i data-lucide="terminal"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-icon"><i data-lucide="cpu"></i></span>
+                    <span class="logo-text">SAROJ.SINGH</span>
+                </a>
+                <p>Engineering secure software models, mapping classical physics simulations, and continuously building systems from the binary ground up.</p>
+            </div>
+            <div class="footer-links-grid">
+                <div class="footer-col">
+                    <h4>Specialties</h4>
+                    <a href="#skills">C Programming</a>
+                    <a href="#skills">Ethical Hacking</a>
+                    <a href="#skills">Physics Simulations</a>
+                    <a href="#skills">Full Stack Web</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="#blog">Logbook</a>
+                    <a href="#education">Studies</a>
+                    <a href="#portfolio">Lab Projects</a>
+                    <a href="#about">Milestones</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Security</h4>
+                    <a href="#">Encrypted Link</a>
+                    <a href="#">PGP Signature</a>
+                    <a href="#">Verification Node</a>
+                    <a href="#">Console Policy</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Saroj Kumar Singh. All systems engineered under local execution cycles.</p>
+            <div class="footer-status">
+                <span class="status-indicator online"></span>
+                <span>Console Status: Online</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Project Modal Overlay -->
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-container glass-panel">
+            <button class="modal-close" aria-label="Close modal">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-body-content">
+                <!-- Injected via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
